@@ -748,6 +748,11 @@ button::-moz-focus-inner {
   }
 }
 @media screen and (max-width: 1024px){
+  .home__img{
+    right: 10px;
+    max-width: 320px;
+    bottom: 80px;
+}
   .about__row{
     padding: 15px;
   }
