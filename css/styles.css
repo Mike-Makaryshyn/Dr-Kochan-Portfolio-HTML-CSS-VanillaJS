@@ -372,12 +372,14 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__percentage{
-  position: absolute;
-  bottom: 10px;
-  right: 4px;
-  width: 27px;
-  height: 27px;
-  margin-left: 5px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 6px;
+    margin: auto;
+    width: 27px;
+    height: 27px;
+    margin-left: 5px;
 }
 .skills__data:hover {
   transform: translateY(-3px);
