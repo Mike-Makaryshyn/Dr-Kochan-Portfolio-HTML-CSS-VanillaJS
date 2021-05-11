@@ -64,6 +64,10 @@ body{
   /* background: url("../img/light-1282314_960_720.webp") no-repeat center center/cover; */
   /* background-color: #E3F0F2; */
   /* background-attachment: fixed; */
+  background-image: url('../img/list-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-family: 'Nunito', sans-serif;
@@ -339,6 +343,7 @@ img{
 
 
 /* ===== SKILLS =====*/
+
 .skills__list{
   display: none;
 }
@@ -664,9 +669,6 @@ button::-moz-focus-inner {
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
-  }
-  body{
-    margin: git0;
   }
   .section{
     padding-top: 4rem;
