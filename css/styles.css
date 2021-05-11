@@ -127,7 +127,7 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   background-color: #fff;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
