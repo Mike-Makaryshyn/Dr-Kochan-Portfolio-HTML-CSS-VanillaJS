@@ -345,12 +345,6 @@ img{
 
 /* ===== SKILLS =====*/
 
-.skills{
-  background-image: url('../img/list-background-1.png'); 
-  background-image: url('../img/background.png');
-   background-attachment: fixed;
-}
-
 .skills__list{
   display: none;
  
