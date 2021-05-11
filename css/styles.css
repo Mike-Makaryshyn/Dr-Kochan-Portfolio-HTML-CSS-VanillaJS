@@ -279,6 +279,8 @@ img{
 }
 .home__img-mobile{
   margin-bottom: 15px;
+  height: 100vh;
+  object-fit: cover;
 }
 .mob-home__title{
   margin-bottom: var(--mb-5);
