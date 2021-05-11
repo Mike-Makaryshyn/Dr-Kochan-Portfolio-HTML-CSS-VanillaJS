@@ -61,9 +61,9 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  /* background-color: #E3F0F2; */
-  background-color: #c4f8c4;
-  /* background-image: url('../img/list-background-1.png'); */
+  background-color: #E3F0F2;
+
+  background-image: url('../img/list-background-1.png');
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
   background-attachment: fixed;
