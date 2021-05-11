@@ -326,6 +326,7 @@ img{
 .about__img img{
   width: 200px;
   border-radius: .5rem;
+  margin-top: 10px;
 }
 .about__alltext{
   margin-left: 15px;
