@@ -61,9 +61,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  /* background: url("../img/light-1282314_960_720.webp") no-repeat center center/cover; */
-  /* background-color: #E3F0F2; */
-  /* background-attachment: fixed; */
+  background-color: #E3F0F2;
   background-image: url('../img/list-background-1.png');
   /* background-repeat: no-repeat; */
   /* background-size: cover; */
@@ -347,6 +345,7 @@ img{
 
 .skills__list{
   display: none;
+ 
 }
 .skills__container{
   row-gap: 2rem;
@@ -355,11 +354,7 @@ img{
 .skills__subtitle{
   margin-bottom: var(--mb-2);
 }
-.skills__percentage{
-  width: 30px;
-  height: 30px;
-  margin-left: 5px;
-}
+
 .skills__text{
   padding: 15px 15px 0px 15px;
   margin-bottom: var(--mb-4);
@@ -375,6 +370,14 @@ img{
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
+.skills__percentage{
+  position: absolute;
+  bottom: 10px;
+  right: 4px;
+  width: 27px;
+  height: 27px;
+  margin-left: 5px;
 }
 .skills__data:hover {
   transform: translateY(-3px);
