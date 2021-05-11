@@ -65,8 +65,8 @@ body{
   /* background-color: #E3F0F2; */
   /* background-attachment: fixed; */
   background-image: url('../img/list-background.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
   background-attachment: fixed;
   background-position: top top;
   margin: var(--header-height) 0 0 0;
