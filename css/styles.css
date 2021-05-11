@@ -64,10 +64,11 @@ body{
   /* background-color: #E3F0F2; */
   /* background-color: #bcd6e4; */
   /* background-color: #FDFDFD; */
-  background-color: #FAF5F1;
   /* background-image: url('../img/list-background-1.png'); */
-  /* background-image: url('../img/1.jpg'); */
+  /* background-image: url('../img/background.png'); */
   /* background-attachment: fixed; */
+
+  background-color: #FAF5F1;
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-family: 'Nunito', sans-serif;
@@ -343,6 +344,12 @@ img{
 
 
 /* ===== SKILLS =====*/
+
+.skills{
+  background-image: url('../img/list-background-1.png'); 
+  background-image: url('../img/background.png');
+   background-attachment: fixed;
+}
 
 .skills__list{
   display: none;
