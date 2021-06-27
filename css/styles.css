@@ -625,6 +625,7 @@ button::-moz-focus-inner {
 .viber{
   display: inline-block;
   transform: translateX(-15px);
+  margin-left: 25px;
 }
 .footer__icon{
   font-size: 1.5rem;
