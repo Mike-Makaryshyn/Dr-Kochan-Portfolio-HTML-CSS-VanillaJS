@@ -620,6 +620,11 @@ button::-moz-focus-inner {
 }
 .footer__social{
   margin-bottom: var(--mb-4);
+
+}
+.viber{
+  display: inline-block;
+  transform: translateX(-15px);
 }
 .footer__icon{
   font-size: 1.5rem;
@@ -667,6 +672,7 @@ button::-moz-focus-inner {
   .home__social-icon {
     display: block;
   }
+  
   .nav {
     max-width: 1024px;
     margin: 0 auto;
@@ -721,6 +727,12 @@ button::-moz-focus-inner {
     flex-direction: row;
     align-self: flex-end;
   }
+  .home__social a svg {
+    transform: translateY(2px);
+  }
+  .home__social svg:hover {
+    fill: var(--first-color);
+  }
   .home__social-icon{
     margin-bottom: 0;
     margin-right: var(--mb-4);
@@ -733,8 +745,7 @@ button::-moz-focus-inner {
     width: 300px;
   }
   .work__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
   .contact__form{
